@@ -10,6 +10,10 @@
 [![MSW](https://img.shields.io/badge/MSW-Mock_Service_Worker-FF6A00.svg?logo=mockserviceworker)](https://mswjs.io/)
 [![Vitest](https://img.shields.io/badge/Vitest-Unit_&_Integration-729B1B.svg?logo=vitest)](https://vitest.dev/)
 
+
+> 🚀 **Demo en vivo:** [metrics-dashboard en Vercel](https://metrics-dashboard-ny6p-b4l1qvqpd-crenfige-team.vercel.app)
+
+
 > **Dashboard de telemetría y monitoreo de sistemas en tiempo real.** Diseñado bajo una arquitectura modular orientada a features (**Feature-Sliced / Domain Driven**), con validación estricta de contratos de datos en tiempo de ejecución, sincronización asíncrona optimizada, visualización de datos reactiva y una suite de herramientas de Chaos Testing para evaluar resiliencia ante caídas de red.
 
 ---
