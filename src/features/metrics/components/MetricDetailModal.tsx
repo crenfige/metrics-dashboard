@@ -142,11 +142,16 @@ export const MetricDetailModal: React.FC = () => {
                   <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e5e7eb" />
                   <XAxis dataKey="time" tick={{ fontSize: 11, fill: '#6b7280' }} tickLine={false} axisLine={false} />
                   <YAxis domain={['auto', 'auto']} tick={{ fontSize: 11, fill: '#6b7280' }} tickLine={false} axisLine={false} />
-                  <Tooltip
-                    contentStyle={{ backgroundColor: '#ffffff', borderRadius: '8px', border: '1px solid #e5e7eb', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.1)' }}
-                    formatter={(value: number | string | undefined) => [`${value ?? 0} ${selectedMetric.unit}`, 'Valor']}
+                    <Tooltip
+                    contentStyle={{
+                        backgroundColor: '#ffffff',
+                        borderRadius: '8px',
+                        border: '1px solid #e5e7eb',
+                        boxShadow: '0 4px 6px -1px rgba(0,0,0,0.1)',
+                    }}
+                    formatter={(value: any) => [`${value ?? 0} ${selectedMetric.unit}`, 'Valor']}
                     labelStyle={{ color: '#6b7280', fontSize: '11px', fontWeight: 600 }}
-                  />
+                    />
                   <Area
                     type="monotone"
                     dataKey="value"
